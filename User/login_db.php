@@ -32,7 +32,7 @@ if(isset($_POST['login_user'])){
                 header("location: admin_page.php");
             }
             if($_SESSION['status'] == 'u'){
-                header("location: user_page.php")
+                header("location: user_page.php");
             }
         } else {
             array_push($errors ,"Username or password is wrong");
